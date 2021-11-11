@@ -1,0 +1,232 @@
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody td.select-checkbox::after,
+table.dataTable tbody th.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::after {
+    top: 50%;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+    margin-top: .2rem;
+}
+
+.dataTables_filter {
+    margin-right: .2rem;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+table.dataTable thead th {
+    border-bottom: 2px solid #c8ced3;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #c8ced3;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+.select2-selection__rendered {
+    padding-bottom: 5px !important;
+}
+
+.has-error .invalid-feedback {
+    display: block !important;
+}
+
+.btn-info,
+.badge-info {
+    color: white;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.sidebar .nav-item {
+    cursor: pointer;
+}
+
+.btn-default {
+    color: #23282c;
+    background-color: #f0f3f5;
+    border-color: #f0f3f5;
+}
+
+.btn-default.focus,
+.btn-default:focus {
+    box-shadow: 0 0 0 .2rem rgba(209, 213, 215, .5);
+}
+
+.btn-default:hover {
+    color: #23282c;
+    background-color: #d9e1e6;
+    border-color: #d1dbe1;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+.searchable-fields {
+    padding-left:5px;
+}
+.searchable-link {
+    padding:0 5px 0 5px;
+}
+.searchable-link:hover   {
+    cursor: pointer;
+    background: #eaeaea;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+
+.form-check.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.c-sidebar-brand .c-sidebar-brand-full:hover {
+    color: inherit;
+}
+
+
+
+/* Start KG*/
+.payment-buttons{
+    /*margin: 25px 33.5%;*/
+    /*display: none;*/
+}
+.paypal-payment{
+    margin: 0px !important;
+}
+
+ul, li, div {
+    background: hsla(0, 0%, 0%, 0);
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font: 13px/20px "Droid Sans", Arial, "Helvetica Neue", "Lucida Grande", sans-serif;
+    text-shadow: 0 1px 0 hsl(0, 100%, 100%);
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tabs-nav li:first-child a {
+    border-right: 0;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.tabs-nav .tab-active a {
+    background: hsl(0, 100%, 100%);
+    border-bottom-color: hsla(0, 0%, 0%, 0);
+    color: hsl(85, 54%, 51%);
+    cursor: default;
+}
+.tabs-nav a {
+    background: hsl(120, 11%, 96%);
+    border: 1px solid hsl(210, 6%, 79%);
+    color: hsl(215, 6%, 57%);
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    /*width: 140px;*/
+    padding: 0 10px;
+}
+.tabs-nav li {
+    float: left;
+}
+.tabs-stage {
+    border: 1px solid hsl(210, 6%, 79%);
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -ms-border-radius: 0 0 6px 6px;
+    -o-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    /*border-top: 0;*/
+    clear: both;
+    margin-bottom: 20px;
+    position: relative;
+    top: -1px;
+    /*width: 281px;*/
+}
+.tabs-stage p {
+    /*margin: 0;*/
+    padding: 20px;
+    color: hsl(0, 0%, 33%);
+}
+.pay-text{
+    text-align: center !important;
+}
+
+@media(min-width:992px) {
+    .tabs-nav a{
+        font-size: 14px;
+    }
+}
+.user-name{
+    color:#3c4b64;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: large;
+}
+@media(max-width:992px) {
+    .user-name{
+        font-size: small;
+    }
+}
+.main-ltitle{
+    text-align: center;
+}
+/* End KG*/
